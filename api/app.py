@@ -52,9 +52,9 @@ def ping():
     return "pong"
 
 
-# Vercel expects this exported handler
-def handler(request, context):
-    return app(request.environ, start_response=None)
+# # Vercel expects this exported handler
+# def handler(request, context):
+#     return app(request.environ, start_response=None)
 
 
 # Run locally for testing
